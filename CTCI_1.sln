@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX_2", "EX_2\EX_2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex_1", "ex_1\ex_1.csproj", "{684BB27B-EB22-4152-80F7-60A7374D9E43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "HashTable\HashTable.csproj", "{17FBC1EF-EEC2-41BF-A145-F253CC8F5B73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{684BB27B-EB22-4152-80F7-60A7374D9E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{684BB27B-EB22-4152-80F7-60A7374D9E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{684BB27B-EB22-4152-80F7-60A7374D9E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FBC1EF-EEC2-41BF-A145-F253CC8F5B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FBC1EF-EEC2-41BF-A145-F253CC8F5B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FBC1EF-EEC2-41BF-A145-F253CC8F5B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FBC1EF-EEC2-41BF-A145-F253CC8F5B73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
