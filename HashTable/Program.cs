@@ -9,6 +9,17 @@ namespace HashTable
         {
             Console.WriteLine("Hello, World!");
 
+
+            var myStruct = new Mystruct();
+
+            myStruct.name = "Jalil ";
+            var myValue = myStruct.secretSecret();
+            Console.WriteLine(myValue);
+
+            //myStruct = null;
+
+            myStruct.SomeMethod();
+
             // Test_HashTable_NumberNames();
             Test_Hashtable_Students();
         }
@@ -35,8 +46,8 @@ namespace HashTable
         static void Test_Hashtable_Students()
         {
             var students = new Hashtable();
-            int[] table = (int[])students.GetType().GetField("_buckets", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(students);
-            Console.WriteLine(table.Length);
+            //int[] table = (int[])students.GetType().GetField("_buckets", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(students);
+            //Console.WriteLine(table.Length);
 
             students.Add("100", "Bob");
             students.Add("123", "Sponge");
