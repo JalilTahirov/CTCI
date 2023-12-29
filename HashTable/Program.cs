@@ -10,15 +10,15 @@ namespace HashTable
             Console.WriteLine("Hello, World!");
 
 
-            var myStruct = new Mystruct();
+            var myStruct = new MyStruct();
 
             myStruct.name = "Jalil ";
-            var myValue = myStruct.secretSecret();
-            Console.WriteLine(myValue);
+            //var myValue = myStruct.secretSecret();
+            //Console.WriteLine(myValue);
 
             //myStruct = null;
 
-            myStruct.SomeMethod();
+            //myStruct.SomeMethod();
 
             // Test_HashTable_NumberNames();
             Test_Hashtable_Students();

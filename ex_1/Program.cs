@@ -8,3 +8,26 @@ int sum(int n)
 }
 
 System.Console.WriteLine(sum(7));
+
+
+
+Console.WriteLine("Hello, World!");
+
+
+var result = ReverseString("Hello");
+Console.WriteLine(result); // Returns 'olleH'
+
+string ReverseString(string value)
+{
+    int length = value.Length;
+
+    var reversedArray = new char[length];
+
+    foreach (var letter in value)
+    {
+        length = length - 1;
+        reversedArray[length] = letter;
+    }
+
+    return string.Concat(reversedArray);
+}

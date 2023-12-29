@@ -10,4 +10,11 @@ namespace HashTable
     {
 
     }
+
+    internal struct MyStruct
+    {
+        public string name { get; set; }
+
+        public MyStruct() { }
+    }
 }

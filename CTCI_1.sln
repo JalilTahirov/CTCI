@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX_2", "EX_2\EX_2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex_1", "ex_1\ex_1.csproj", "{684BB27B-EB22-4152-80F7-60A7374D9E43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "HashTable\HashTable.csproj", "{17FBC1EF-EEC2-41BF-A145-F253CC8F5B73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTable", "HashTable\HashTable.csproj", "{17FBC1EF-EEC2-41BF-A145-F253CC8F5B73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageBasics", "LanguageBasics\LanguageBasics.csproj", "{17D56BC1-4A4F-4ACB-AE5D-CC8A6E527FB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LanguageBasics", "LanguageBasics\LanguageBasics.csproj", "{17D56BC1-4A4F-4ACB-AE5D-CC8A6E527FB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{EFF932CB-9CEC-4881-B96A-AA0D2B4915EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{E41F22DE-28B3-4EFE-B4E2-CAB177C3B74E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{17D56BC1-4A4F-4ACB-AE5D-CC8A6E527FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17D56BC1-4A4F-4ACB-AE5D-CC8A6E527FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17D56BC1-4A4F-4ACB-AE5D-CC8A6E527FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF932CB-9CEC-4881-B96A-AA0D2B4915EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF932CB-9CEC-4881-B96A-AA0D2B4915EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF932CB-9CEC-4881-B96A-AA0D2B4915EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF932CB-9CEC-4881-B96A-AA0D2B4915EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41F22DE-28B3-4EFE-B4E2-CAB177C3B74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41F22DE-28B3-4EFE-B4E2-CAB177C3B74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41F22DE-28B3-4EFE-B4E2-CAB177C3B74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41F22DE-28B3-4EFE-B4E2-CAB177C3B74E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
